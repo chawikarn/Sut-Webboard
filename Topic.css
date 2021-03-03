@@ -1,0 +1,40 @@
+.subnav1 a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 550px;
+    width: auto;
+    background-color: #d3e4ee
+  }
+  li {
+    display: block;
+    float: left;
+  }
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #a1cae2;
+    color: white;
+  }
+
+ .color {
+    background-color: #555;
+    color: white;
+  }
+
+ 
+ 

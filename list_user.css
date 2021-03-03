@@ -1,0 +1,121 @@
+body {
+  font-family: Cursive, Helvetica, sans-serif;
+  margin: 0;
+  color: #ffffff;
+  background-color: #212F3C;
+  font-size: 15px;
+  
+}
+.header{
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #212F3C;
+    color: white;
+    font-size: 20px;
+    font-family: Cursive, Helvetica, sans-serif;
+  }
+  .content {padding:20px;}
+
+.button{
+  display: block;
+  outline: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 8px 0;
+  background-color: #F1C40F;
+  border-radius: 6px;
+}
+
+  .input-group input[type=text] {
+    float: right;
+    border-radius: 10px;
+    padding: 6px;
+    border: 2px solid #1abc9c;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-right: 5px solid rgb(255, 145, 0);
+  }
+  table {
+    border-collapse:collapse;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 1000px;
+    color: #000000;
+    font-size: 15px;
+    background-color: #1abc9c;
+    font-family: Cursive, Helvetica, sans-serif;
+  }
+  th {
+    background-color: #212F3C;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+  }
+  td{
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr,td:nth-child(even){
+    background-color: ghostwhite;
+    
+  }
+  @media screen and (max-width: 35.5em) {
+    table {
+      display: block;
+    }
+    table > *, table tr, table td, table th {
+      display: block;
+    }
+    table thead {
+      display: none;
+    }
+    table tbody tr {
+      height: auto;
+      padding: 8px 0;
+    }
+    table tbody tr td {
+      padding-left: 45%;
+      margin-bottom: 12px;
+    }
+    table tbody tr td:last-child {
+      margin-bottom: 0;
+    }
+    table tbody tr td:before {
+      position: absolute;
+      font-weight: 700;
+      width: 40%;
+      left: 10px;
+      top: 0;
+    }
+    table tbody tr td:nth-child(1):before {
+      content: "Code";
+    }
+    table tbody tr td:nth-child(2):before {
+      content: "Stock";
+    }
+    table tbody tr td:nth-child(3):before {
+      content: "Cap";
+    }
+    table tbody tr td:nth-child(4):before {
+      content: "Inch";
+    }
+    table tbody tr td:nth-child(5):before {
+      content: "Box Type";
+    }
+  }
+  body {
+    background: #212F3C;
+    font: 400 14px 'Calibri','Arial';
+    padding: 20px;
+  }
+  blockquote {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  

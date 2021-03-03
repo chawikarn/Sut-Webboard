@@ -1,0 +1,127 @@
+body {
+    font-family: Cursive, Helvetica, sans-serif;
+    margin: 0;
+    color: #212F3C;
+    background-color: #1abc9c;
+    font-size: 15px;
+    
+  }
+  .header{
+      padding-top: 10px;
+      padding: 20px;
+      margin-top: 0;
+      text-align: center;
+      background: #212F3C;
+      color: white;
+      font-size: 20px;
+      font-family: Cursive, Helvetica, sans-serif;
+    }
+    .content {padding:20px;}
+  a{
+    padding-left: 15%;
+
+    color: #ffffff;
+  }
+  #des{
+      font-size: 15px;
+  }
+    table {
+        border-radius: 10px;
+      padding-top: 10px;
+      border-collapse:collapse;
+      padding-left: 20%;
+      padding-right: 20%;
+      color: #ffffff;
+      font-size: 20px;
+      width: auto;
+      position:static;
+      font-family: Cursive, Helvetica, sans-serif;
+    }
+    th {
+      text-align: center;
+      padding: 8px;
+    }
+    #btn{
+      text-align: center;
+      padding: 8px;
+    }
+    td{
+      text-align: left;
+      padding: 3px;
+    }
+    
+    
+    tr,td:nth-child(even){
+      background-color: #1abc9c;
+    }
+    
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    input [type=text] {
+      width: auto;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .button {
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        border-radius: 4px;
+        background-color: #e9e77c;
+        border: none;
+        color: #000000;
+        text-align: center;
+        padding: 10px;
+        width: 100px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 20px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    input{
+        font-size: 15px;
+        border: 1px;
+        border-radius: 5px;
+        position: inherit;
+        font-family: Cursive;
+
+    }
+    select{
+        width: 220px;
+        padding: 2px 2px;
+        border: 1px rgb(0, 0, 0);
+        border-radius: 4px;
+        background-color: #ffffff;
+        font-family: Cursive;
+        position:inherit;
+    }
+
+
+  

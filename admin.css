@@ -1,0 +1,149 @@
+body {
+    font-family: Cursive, Helvetica, sans-serif;
+    margin: 0;
+    color: #ffffff;
+    background-color: #212F3C;
+    font-size: 15px;
+    
+  }
+  .header{
+      padding: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+      background: #212F3C;
+      color: white;
+      font-size: 20px;
+      font-family: Cursive, Helvetica, sans-serif;
+    }
+    .content {padding:20px;}
+    
+    .input-group input[type=text] {
+      float: right;
+      border-radius: 10px;
+      padding: 6px;
+      border: 2px solid #1abc9c;
+      margin-top: 8px;
+      margin-right: 10px;
+      font-size: 15px;
+      border-right: 5px solid rgb(255, 145, 0);
+    }
+    .input-group .button {
+      float: left;
+      border-radius: 10px;
+      padding: 6px;
+      margin-top: 8px;
+      margin-right: 10px;
+      font-size: 15px;
+      border-right: 5px solid rgb(255, 145, 0);
+    }
+
+  a{
+    padding-left: 15%;
+    color: #ffffff;
+  }
+  #des{
+      font-size: 15px;
+  }
+  #quest{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  table {
+    text-align: center;
+      border-radius: 10px;
+      padding-top: 10px;
+      border-collapse:collapse;
+      padding-left: 20%;
+      padding-right: 20%;
+      color: #000000;
+      font-size: 16px;
+      width: 1200px;
+      position:static;
+      font-family: Cursive, Helvetica, sans-serif;
+  }
+    th {
+      text-align: center;
+      padding: 8px;
+    }
+    #btn{
+      text-align: center;
+      padding: 8px;
+    }
+    td{
+      text-align: center;
+      padding: 3px;
+    }
+    
+    
+    tr,td:nth-child(even){
+      background-color: #ffffff;
+    }
+    
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    
+    .tp{
+        color: #212F3C;
+      }
+
+      a {
+        color: red;
+      }
+
+    input [type=text] {
+      width: auto;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .button {
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        border-radius: 4px;
+        background-color: #e9e77c;
+        border: none;
+        color: #000000;
+        text-align: center;
+        padding: 10px;
+        width: 100px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 20px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+     #listUser{
+        background-color: honeydew;
+    }
+    p{
+      font-size: 20pt;
+      -webkit-text-stroke: 0.5px;
+      color: white;
+    }
+  
